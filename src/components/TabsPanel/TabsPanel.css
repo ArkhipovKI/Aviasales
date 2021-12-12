@@ -1,0 +1,34 @@
+.main-sort {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.main-sort--name.active {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #2196f3;
+	border: 1px solid black;
+}
+.main-sort--name {
+	flex-basis: 50%;
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	border: 1px solid grey;
+}
+.main-sort--name:not(:last-child) {
+	margin-right: -1px;
+}
+.main-sort--name:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.main-sort--name span {
+	font-family: "OpenSansBold";
+	letter-spacing: 0.5px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20px;
+	font-size: 12px;
+	padding: 15px;
+}

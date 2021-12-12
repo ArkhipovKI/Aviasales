@@ -1,0 +1,89 @@
+.first-span {
+	color: white;
+}
+.cart-wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin-top: 20px;
+	background: #ffffff;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-wrapper div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.content-header {
+	margin-bottom: 20px;
+}
+
+.cart-header {
+	margin-bottom: 20px;
+}
+
+.cart-from {
+	margin-bottom: 20px;
+}
+
+.cart-from div {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.cart-to div {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.content-header span:first-child {
+	font-size: 24px;
+	line-height: 36px;
+	vertical-align: middle;
+	color: #2196f3;
+}
+
+.cart-from div span:first-child {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 0.5px;
+	text-align: left;
+	color: #a0b0b9;
+}
+
+.cart-to div span:first-child {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 18px;
+	letter-spacing: 0.5px;
+	text-align: left;
+	color: #a0b0b9;
+}
+
+.cart-from div span:last-child {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 21px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #4a4a4a;
+}
+
+.cart-to div span:last-child {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 21px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #4a4a4a;
+}
