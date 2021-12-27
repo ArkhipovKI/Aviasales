@@ -4,7 +4,7 @@ import './index.css';
 import App from './components/App/App';
 import reduxThunk from 'redux-thunk';
 import { Provider } from 'react-redux'
-import reducer from './reducers/index'
+import reducer from './store/reducers/index'
 import { createStore, compose, applyMiddleware } from 'redux';
 
 const composeEnhancers =

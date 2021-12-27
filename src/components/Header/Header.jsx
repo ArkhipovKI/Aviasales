@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.module.scss';
-import logo from './Logo.png'
+import logo from './../../assets/Logo.png'
 import classnames from 'classnames/bind';
 
 const cn = classnames.bind(styles);

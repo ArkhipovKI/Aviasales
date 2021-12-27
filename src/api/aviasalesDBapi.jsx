@@ -16,7 +16,8 @@ export default class AviasalesDBService {
 				const { tickets, stop } = await response.json();
 				return [tickets, stop]
 			}
-			catch {
+			catch (e) {
+				console.log(`произошла ошибка ${e.message}, пробуем повторно получить данные`)
 				return [[], false]
 			}
 		}

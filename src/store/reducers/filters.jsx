@@ -6,12 +6,12 @@ import {
 
 const initialState = {
 	activeTab: 'cheaper',
-	isAllActive: false,
+	isAllActive: true,
 	filters: [
-		{ name: 'no-transfers', active: false },
-		{ name: 'one-transfer', active: false },
-		{ name: 'two-transfers', active: false },
-		{ name: 'three-transfers', active: false }
+		{ name: 'no-transfers', active: true },
+		{ name: 'one-transfer', active: true },
+		{ name: 'two-transfers', active: true },
+		{ name: 'three-transfers', active: true }
 	]
 }
 

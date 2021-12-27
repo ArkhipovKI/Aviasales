@@ -11,3 +11,10 @@
 	justify-content: space-around;
 	margin: 0 100px;
 }
+
+@media (max-width: 760px) {
+	.main-wrapper {
+		flex-direction: column;
+		margin: 0 15px;
+	}
+}

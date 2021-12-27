@@ -2,7 +2,7 @@ import React from 'react';
 // import './TabsPanel.css'
 import {useDispatch, useSelector} from 'react-redux';
 import classes from './TabFilter.module.scss';
-import {setActiveTabAction} from '../../actions/actions'
+import {setActiveTabAction} from '../../store/actions/actions'
 
 const TabsPanel = React.memo(() => {
 	const dispatch = useDispatch()

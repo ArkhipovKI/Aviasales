@@ -16,6 +16,7 @@
 	flex-basis: 50%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	height: 50px;
 	border: 1px solid grey;
 }
@@ -31,7 +32,6 @@
 	letter-spacing: 0.5px;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 20px;
 	font-size: 12px;
 	padding: 15px;
 }

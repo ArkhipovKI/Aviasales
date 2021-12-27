@@ -1,4 +1,4 @@
-import AviasalesDBService from '../api/aviasalesDBapi'
+import AviasalesDBService from '../../api/aviasalesDBapi'
 
 const { getTickets, getSearchId } = new AviasalesDBService();
 

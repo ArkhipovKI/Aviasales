@@ -1,6 +1,17 @@
+@media (max-width: 760px) {
+	.filter-wrapper {
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 761px) {
+	.filter-wrapper {
+		margin-right: 20px;
+	}
+}
+
 .filter-wrapper {
 	flex-basis: 232px;
-	margin-right: 20px;
 	border: 1px solid #000000;
 	box-shadow: 0px 2px 8px 0px #0000001a;
 	border-radius: 5px;
@@ -54,14 +65,13 @@
 	left: 0;
 	top: 0;
 	transition: background 0.3s ease;
-	background: url(./Checkbox-1.png) 0 0 no-repeat;
+	background: url(../../assets/Checkbox-1.png) 0 0 no-repeat;
 }
 
 /* Checked */
 .checkbox-other input[type="checkbox"]:checked + span:before {
-	background-image: url(./Checkbox-2.png);
+	background-image: url(../../assets/Checkbox-2.png);
 }
-
 /* Focus */
 .focused span:before {
 	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);

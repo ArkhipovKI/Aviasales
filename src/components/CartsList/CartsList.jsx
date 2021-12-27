@@ -21,10 +21,11 @@ const CartsList = React.memo((props) => {
 		(<Alert message="Рейсов, подходящих под заданные фильтры, не найдено" type="info" showIcon />) : 
 		(<div className="main-carts">
 			{Object.values(tickets).filter((v, i) => i >= 0 && i < ticketsShow).map((ticket) =>
-				<Cart
-					key={uuidv4()}
-					{...ticket}
-				/>
+				<div key={uuidv4()} >
+					<Cart
+						{...ticket}
+					/>
+				</div>
 			)
 			}
 		<button className={cn('button-more')}  onClick={() => setTicketsShown((count) => count+5)}>
